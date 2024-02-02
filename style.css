@@ -1,0 +1,491 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Jost',sans-serif;
+}
+
+.navigation-bar{
+    height: 4.4rem;
+    background-color: #FFF3EA;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Jost', sans-serif;
+    font-weight: normal;
+    font-size: 1rem;
+    padding: 0 7rem;
+    padding: 2.5rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.logo{
+    background-color: #ff6b01;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    height: 73px;
+    position: relative;
+    left: 14px;
+    top: 7px;
+}
+
+.main-navigation{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    font-size: 0.9rem;
+}
+
+.contact-us{
+    padding: 11px 30px;
+    background-color: #ff6b01;
+    border-radius: 6px;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+.main-navigation a{
+    text-decoration: none;
+    color: black;
+}
+
+.greetings-container{
+    display: flex;
+    height: 40rem;
+    background-color: #FFF3EA;
+    justify-content: center;
+}
+
+.right-image img{
+    height: 40rem;
+}
+
+.left-greetings{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 2.5rem;
+    padding-left: 5rem;
+    font-family: 'Jost', sans-serif;
+}
+
+.left-greetings h3{
+    margin-top: 6rem;
+    margin-bottom: -2rem;
+}
+
+.left-greetings .find-me{
+    margin-top: -2rem;
+    font-size: 0.9rem;
+    letter-spacing: 0.06rem;
+}
+
+.left-greetings h1{
+    font-size: 2.8rem;
+}
+
+.left-greetings p{
+    line-height: 1.6rem;
+    letter-spacing: 0.06rem;
+}
+
+.contact-options{
+    display: flex;
+    gap: 2rem;
+    width:30%;
+}
+
+.contact-options div{
+    background-color: #ff6b01;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ui-ux{
+    color: #ff6b01;
+}
+
+.designer{
+    font-size: 1.8rem;
+    color: rgb(58, 58, 58);
+}
+
+.facebook,.linked-in,.dribble{
+    height: 2.3rem;
+    width: 2.3rem;
+}
+
+.about-me-section{
+    display: flex;
+    margin-top: 8rem;
+    font-family: 'Jost', sans-serif;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.about-me{
+    display: flex;
+    gap: 0.6rem;
+    font-size: 0.6rem;
+    font-weight: 600;
+}
+
+.left-image-section-about-me img{
+    height: 38rem;
+}
+
+.right-about-me-intro{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    width: 40%;
+}
+
+.about-title{
+    font-size: 1.3rem;
+    letter-spacing: -0.02rem;
+    line-height: 40px;
+}
+
+.about-description{
+    line-height: 1.5rem;
+    font-size: 0.8rem;
+}
+
+.about-details{
+    display: flex;
+    gap: 3rem;
+    margin-top: 4rem;
+}
+
+.download-cv p{
+    width: 9rem;
+    background-color:#ff6b01;
+    text-align: center;
+    padding: 0.6rem;
+    border-radius: 6px;
+    margin-top: 1.7rem;
+    color: white;
+}
+
+.orange{
+    color: #ff6b01;
+    font-weight: 900;
+    font-size: 1.6rem;
+}
+
+.greetings-image-photoshop{
+    position: relative;width: 70px;height: 70px;left: -2.5rem;bottom: 15rem;
+    background-color: white;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.greetings-image-photoshop img{
+    width: 70px;height: 70px;
+}
+
+.experience-image{
+    height: 100px;
+    width: 4rem;
+    position: relative;
+    top: -33rem;
+    left: 24rem;
+}
+
+.experience-image img{
+    height: 100px;
+}
+
+.figma-icon{
+    height: 6rem;
+    position: relative;
+    top: -20rem;
+    left: 30rem;
+    width: 4rem;
+}
+
+.figma-icon img{
+    height: 6rem;
+}
+
+.services-icons-area{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20%;
+    margin-top: 4rem;
+}
+
+.services-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.3rem;
+    margin-top: 3rem;
+    font-family: 'Jost', sans-serif;
+    padding-bottom: 7rem;
+}
+
+.services-title-area{
+    display: flex;
+    gap:0.5rem;
+}
+
+.services-cards-area{
+    display: flex;
+    gap: 1%;
+    justify-content: center;
+}
+
+.services-cards{
+    border: 2px solid #FFF3EA;
+    width: 18%;
+    padding-top:1.3rem ;
+    padding-bottom: 1rem;
+    padding-left: 1.3rem;
+    padding-right: 1.3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-family: 'Jost', sans-serif;
+    border-radius: 6px;
+    padding-bottom: 1.5rem;
+}
+
+.card-icon{
+    margin-top: 1rem;
+    height: 3.8rem;
+    width: 3.8rem;
+    background-color: #FFF3EA;
+    border-radius: 6px;
+}
+
+.card-title{
+    font-size: 0.6rem;
+    margin-top: 1rem;
+}
+
+.card-description{
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    word-spacing: 0.3rem;
+}
+
+.resume-section{
+    background-color: #FFF3EA;
+    gap: 8%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-resume-side{
+    display: flex;
+    flex-direction: column;
+    width: 31%;
+    align-items: center;
+    margin-left: 14%;
+    align-items: self-start;
+    padding: 8rem 0;
+}
+
+.softwares{
+    display: grid;
+    grid-template-columns: 8rem 8rem;
+    grid-template-rows: 9rem 9rem 9rem;
+    align-items: center;
+    row-gap: 1rem;
+    justify-content: space-around;
+    column-gap: 7rem;
+}
+
+.software-name{
+    padding: 1rem;
+    text-align: center;
+    margin-top: -10px;
+    background-color: white;
+    width: 11rem;
+    height: 1rem;
+    padding-bottom: 2rem;
+    border-radius: 6px;
+    box-shadow: 3px 3px rgb(230, 194, 169)
+}
+
+.grid-cells-software{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.resume-heading{
+    display: flex;
+    gap: 1rem;
+}
+
+.education-and-experience{
+    margin-top: 2%;
+    margin-bottom: 8%;
+}
+
+.right-resume-side{
+    display: flex;
+    flex-direction: column;
+    width: 69%;
+    padding: 8rem 0;
+}
+
+.experience-education-header{
+    display: flex;
+    width: 74%;
+    border: 1px solid #ff6b01;
+    height: 10%;
+    padding: 0.4rem;
+    gap: 1rem;
+    margin-bottom: 6rem;
+    border-radius: 6px;
+}
+
+.experience-box{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    background-color: #ff6b01;
+    border-radius: 6px
+}
+
+.education-box{
+    display: flex;
+    background-color: white;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.ed-ex{
+    padding: 1rem;
+    background-color: white;
+    width: 78%;
+    height: 7.5rem;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 3rem;
+}
+
+.main-education-experience-section{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.left-side-company{
+    display: flex;
+    gap: 1.6rem;
+}
+
+.name-and-position{
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem 0;
+    padding-bottom: 1rem;
+    justify-content: space-between;
+}
+
+.Company-name{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.company-designation{
+    color: rgb(63, 63, 63);
+    font-size: 1rem;
+}
+
+.right-side-company-duration{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0;
+    justify-content: space-between;
+    width: 10rem;
+}
+
+.duration{
+    color: #ff6b01;
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: end;
+    font-weight: bold;
+    padding-right: 1rem;
+}
+
+.portfolio-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6rem;
+    gap: 1rem;
+}
+
+.portfolio-headiner-heading{
+    display: flex;
+    gap: 1rem;
+}
+
+.portfolio-cards{
+    padding: 2rem 0;
+    border-radius: 6px;
+    border: 1px solid #FFF3EA;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-left: 2rem;
+}
+
+.portfolio-areas{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.portfolio-titles{
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgb(92, 91, 91);
+    display: inline;
+    justify-content: start;
+}
+
+.portfolio-desc{
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.main-portfolio-area{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    width: 80%;
+    height: 50%;
+    margin: 0 auto;
+}
+
+.portfolio-images{
+    width: 85%;
+    height: auto;
+}

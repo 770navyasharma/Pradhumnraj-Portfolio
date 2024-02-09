@@ -609,3 +609,63 @@ a{
     gap: 1rem;
     margin-bottom: 15rem;
 }
+
+.footer-section{
+    background-color: black;
+    color: white;
+    padding: 3rem 8rem;
+}
+
+.footer-main-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 8vw;
+}
+
+.footer-heading{
+    font-size: 0.7rem;
+    font-weight: 900;
+}
+
+.footer-quick-link,.footer-services,.footer-contact,.footer-consultation{
+    display: flex;
+    flex-direction: column;
+    font-size: 0.7rem;
+    gap: 1rem;
+    margin-bottom: 3rem;
+}
+
+.footer-end{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 0.7rem;
+    margin-top: 1rem;
+}
+
+#emailFooter{
+    background-color: black;
+    padding: 1rem 1rem;
+    width: 17rem;
+    border-radius: 6px;
+    border: none;
+    border: 1px solid white;
+    color: rgb(123, 122, 122);
+}
+
+.footer-consultation-mail-box{
+    margin-top: 2rem;
+}
+
+.footer-consultation-main{
+    font-size: 1.7rem;
+}
+
+.orange2{
+    color: #ff6b01;
+}
+
+#grey{
+    background-color: rgb(27, 27, 27);
+}

@@ -607,7 +607,7 @@ a{
     display: flex;
     flex-direction: row;
     gap: 1rem;
-    margin-bottom: 15rem;
+    margin-bottom: 10rem;
 }
 
 .footer-section{
@@ -668,4 +668,8 @@ a{
 
 #grey{
     background-color: rgb(27, 27, 27);
+}
+
+hr{
+    border-color: rgb(23, 23, 23);
 }
